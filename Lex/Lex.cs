@@ -29,10 +29,11 @@
         }
 
         tail.Remove(tailItem);
+        tail.Add(pivotValue);
+        tail.Sort();
 
         var head = digits.GetRange(0, pivotIndex);
         head.Add(tailItem);
-        head.Add(pivotValue);
         head.AddRange(tail);
 
         return string.Join("", head);
