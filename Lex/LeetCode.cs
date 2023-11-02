@@ -1,6 +1,6 @@
 ﻿//LeetCode-specific solution.
-//Runtime - 19ms Beats 80.00%of users with C#
-//Memory - 26.91MB , Beats 73.33%of users with C#
+//Runtime - 19ms , Beats 80.00% of users with C#
+//Memory - 26.91MB , Beats 73.33% of users with C#
 public static class Solution
 {
   public static int NextGreaterElement(int n)
