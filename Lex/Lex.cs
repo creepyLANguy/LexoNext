@@ -1,4 +1,5 @@
-﻿public static class Lex
+﻿//More concise and general solution for @cassidoo's interview question of the week.
+public static class Lex
 {
   public static string GetNext(string input)
   {
